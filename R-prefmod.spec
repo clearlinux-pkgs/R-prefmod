@@ -4,7 +4,7 @@
 #
 Name     : R-prefmod
 Version  : 0.8.34
-Release  : 16
+Release  : 17
 URL      : https://cran.r-project.org/src/contrib/prefmod_0.8-34.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/prefmod_0.8-34.tar.gz
 Summary  : Utilities to Fit Paired Comparison Models for Preferences
@@ -16,6 +16,7 @@ Requires: R-gnm
 BuildRequires : R-colorspace
 BuildRequires : R-gnm
 BuildRequires : buildreq-R
+BuildRequires : util-linux
 
 %description
 No detailed description available
@@ -36,10 +37,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1569384530
+export SOURCE_DATE_EPOCH=1571877662
 
 %install
-export SOURCE_DATE_EPOCH=1569384530
+export SOURCE_DATE_EPOCH=1571877662
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
