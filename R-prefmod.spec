@@ -4,7 +4,7 @@
 #
 Name     : R-prefmod
 Version  : 0.8.35
-Release  : 42
+Release  : 43
 URL      : https://cran.r-project.org/src/contrib/prefmod_0.8-35.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/prefmod_0.8-35.tar.gz
 Summary  : Utilities to Fit Paired Comparison Models for Preferences
